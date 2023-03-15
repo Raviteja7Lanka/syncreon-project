@@ -43,40 +43,48 @@ step 6: To run the front end. Open the terminal with file directory 'syncreon pr
 * Relation between the customer table and the address table is one --> many relation.(Customer can have multiple address)
 * Relation between the Order table and OrderContent table is one ---> many relation.
 
-** Customer Table:
+** Customer collection:
+
+        The _id field works as the primary key for the MongoDB collection
 
         Columns:
-        customerCode (Primary Key)
+        customerCode 
         FirstName
         LastName
         Phone
         Email
 
-** Address Table:
+** Address collection:
+        
+        The _id field works as the primary key for the MongoDB collection
         
         Columns:
-        Addresscode (Primary Key)
+        Addresscode 
         AddressType
         FullName
         AddressLine1
         AddressLine2
-        customerCode (Foreign Key to Customers)
+        customerCode 
         
 
-** Orders Table:
+** Orders collection:
+
+        The _id field works as the primary key for the MongoDB collection
 
         Columns:
-        ReferenceNum (Primary Key)
+        ReferenceNum 
         Customercode 
-        CountryCode(Foreign Key to Customers),
-        AddressCode(Foreign Key to Addresses)
+        CountryCode,
+        AddressCode
 
 
-** Order Content Table:
+** Order Content collection:
+
+        The _id field works as the primary key for the MongoDB collection
 
         Columns:
-        Reference Number(Foreign Key to Orders)
-        ItemNum (Primary Key)
+        Reference Number
+        ItemNum 
         ItemDescription
 
 ## why Mongodb??
