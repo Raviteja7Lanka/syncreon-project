@@ -1,0 +1,32 @@
+.my-button {
+    background-color: rgba(5, 5, 141, 0.634); /* Set the background color of the button */
+    color: white; /* Set the text color of the button */
+    padding: 10px 20px; /* Set the padding of the button */
+    border: none; /* Remove the button border */
+    border-radius: 5px; /* Set the border radius of the button */
+    cursor: pointer; /* Change the mouse cursor to a pointer when hovering over the button */
+  }
+
+  .card-container {
+    display: grid; /* Set the container to use a grid layout */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Set the column width and make the columns automatically fit within the container */
+    gap: 20px; /* Set the gap between the cards */
+    padding-left: 2rem;
+  }
+
+  .myButton{
+    padding-top: 10px;
+    margin-left: 1000px;
+  }
+
+  .customerColumn{
+    margin-left: 20px;
+  }
+
+
+  .justify-content-center{
+    display:flex;
+    justify-content: center;
+    
+  }
+  
