@@ -92,7 +92,7 @@ In summary, MongoDB offers advantages over MySQL in terms of flexibility, scalab
 
 Home Screen:
 
-![Example image]()
+![Example image](https://github.com/Raviteja7Lanka/syncreon-project/blob/master/Home_Page.png)
     
 
 Dashboard Screen:
