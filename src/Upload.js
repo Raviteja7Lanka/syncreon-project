@@ -28,7 +28,6 @@ const Upload = () => {
       reader.readAsText(selectedFile, "UTF-8");
       reader.onload = (e) => {
         const fileStr = e.target.result;
-        // console.log(fileStr)
         var myHeaders = new Headers();
         myHeaders.append("Content-Type", "application/xml");
 

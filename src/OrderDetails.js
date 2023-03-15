@@ -26,7 +26,6 @@ function OrderDetails() {
       .then(response => response.json())
       .then(data => {
         setOrderDetails(data);
-        console.log(data);
       });
   }, []);
 

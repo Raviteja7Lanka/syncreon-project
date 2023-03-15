@@ -92,21 +92,24 @@ In summary, MongoDB offers advantages over MySQL in terms of flexibility, scalab
 
 # Home Screen:
 
-![Example image](https://github.com/Raviteja7Lanka/syncreon-project/blob/master/Home_Page.png)
+![Example image](https://github.com/Raviteja7Lanka/syncreon-project/blob/master/Images/Home_Page.png)
     
 
 # Dashboard Screen:
-![Example image](https://github.com/Raviteja7Lanka/syncreon-project/blob/master/Screen1.png)
-![Example image](https://github.com/Raviteja7Lanka/syncreon-project/blob/master/Screen%201-2.png)
-![Example image](https://github.com/Raviteja7Lanka/syncreon-project/blob/master/Screen1-3.png)
+![Example image](https://github.com/Raviteja7Lanka/syncreon-project/blob/master/Images/Screen1.png)
+![Example image](https://github.com/Raviteja7Lanka/syncreon-project/blob/master/Images/Screen%201-2.png)
+![Example image](https://github.com/Raviteja7Lanka/syncreon-project/blob/master/Images/Screen1-3.png)
 
 
 # Update Model screen:
-![Example image](https://github.com/Raviteja7Lanka/syncreon-project/blob/master/Model-1.png)
-![Example image](https://github.com/Raviteja7Lanka/syncreon-project/blob/master/Model%201-2.png)
+![Example image](https://github.com/Raviteja7Lanka/syncreon-project/blob/master/Images/Model-1.png)
+![Example image](https://github.com/Raviteja7Lanka/syncreon-project/blob/master/Images/Model%201-2.png)
 
 # Upload Screen
-![Example image](https://github.com/Raviteja7Lanka/syncreon-project/blob/master/Upload%20Screen%20Shot.png)
+* This Screen only visible when the database has no data in it.
+* You can only Upload the xml File with the same structure same info.
+
+![Example image](https://github.com/Raviteja7Lanka/syncreon-project/blob/master/Images/Upload%20Screen%20Shot.png)
 
 
 
