@@ -1,3 +1,57 @@
+## Syncreon Project
+
+
+
+
+
+
+## Instruction to Run the project
+Step 1: clone the project
+
+step 2: Install npm 
+
+step 3: then go into the file directory do npm i
+
+step 4: Setup DataBase for macOs
+        run mongod
+        run brew --prefix
+        run brew services start mongodb-community@4.2
+        this is to stop :brew services stop mongodb-community@4.2
+
+        Link:https://www.mongodb.com/docs/v4.2/tutorial/install-mongodb-on-os-x/#install-mongodb-community-edition
+
+step 5: To run the backend. open the terminal with file directory 'server'
+
+        run node index.js
+
+step 6: To run the front end. Open the terminal with file directory 'syncreon project'
+        run npm start
+
+        Runs the app in the development mode.\
+        Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+        
+
+
+
+
+
+Home Screen:
+
+    
+
+Dashboard Screen:
+
+
+
+
+Update Model screen:
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
