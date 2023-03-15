@@ -1,6 +1,14 @@
 ## Syncreon Project
 
 
+# Frontend:
+
+        React js
+        
+# Backend:
+
+        Nodejs
+
 ## Instruction to Run the project
 Step 1: clone the project
 
