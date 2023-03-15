@@ -105,7 +105,10 @@ In summary, MongoDB offers advantages over MySQL in terms of flexibility, scalab
 ![Example image](https://github.com/Raviteja7Lanka/syncreon-project/blob/master/Model-1.png)
 ![Example image](https://github.com/Raviteja7Lanka/syncreon-project/blob/master/Model%201-2.png)
 
-# Upload Screnn
+# Upload Screen
+![Example image](https://github.com/Raviteja7Lanka/syncreon-project/blob/master/Upload%20Screen%20Shot.png)
+
+
 
 
 # Getting Started with Create React App
