@@ -2,9 +2,11 @@ import React from 'react';
 import { useState } from 'react';
 import './App.css'
 import { Button, Form } from 'react-bootstrap';
+import { useNavigate } from 'react-router-dom';
 
 const Upload = () => {
-
+  
+  const navigate = useNavigate();
   const [selectedFile, setSelectedFile] = useState(null);
 
 
@@ -38,7 +40,9 @@ const Upload = () => {
           redirect: 'follow'
         })
           .then(response => {response.text();
-                            window.location.reload();})
+                            window.location.reload();
+                            window.alert('Uploaded Successfully');
+                           })
           .then(result => {
                             console.log(result);
                           })
