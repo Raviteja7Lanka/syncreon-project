@@ -31,7 +31,7 @@ step 6: To run the front end. Open the terminal with file directory 'syncreon pr
         Runs the app in the development mode.\
         Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
         
-##Data Base Relation:
+## Data Base Relation:
 
 * The relationship between teh customer table and the order table is one  --> many relation.
 * Relation between the customer table and the address table is one --> many relation.(Customer can have multiple address)
@@ -90,22 +90,22 @@ In summary, MongoDB offers advantages over MySQL in terms of flexibility, scalab
 
 
 
-#Home Screen:
+# Home Screen:
 
 ![Example image](https://github.com/Raviteja7Lanka/syncreon-project/blob/master/Home_Page.png)
     
 
-#Dashboard Screen:
+# Dashboard Screen:
 ![Example image](https://github.com/Raviteja7Lanka/syncreon-project/blob/master/Screen1.png)
 ![Example image](https://github.com/Raviteja7Lanka/syncreon-project/blob/master/Screen%201-2.png)
 ![Example image](https://github.com/Raviteja7Lanka/syncreon-project/blob/master/Screen1-3.png)
 
 
-#Update Model screen:
+# Update Model screen:
 ![Example image](https://github.com/Raviteja7Lanka/syncreon-project/blob/master/Model-1.png)
-![Example image](https://github.com/Raviteja7Lanka/syncreon-project/blob/master/Model1-2.png)
+![Example image](https://github.com/Raviteja7Lanka/syncreon-project/blob/master/Model%201-2.png)
 
-#Upload Screnn
+# Upload Screnn
 
 
 # Getting Started with Create React App
