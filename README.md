@@ -44,6 +44,14 @@ step 6: To run the front end. Open the terminal with file directory 'syncreon pr
         run npm start
 
         Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+
+step 7: Make sure when your uploading file have No spaces in the beging of the file.
+
+## API Used:
+        * get: get('/getAllOrders')
+        * put: put('/update')
+        * post: post('/upload') 
         
 ## Data Base Relation:
 
