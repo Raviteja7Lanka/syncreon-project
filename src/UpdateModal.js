@@ -14,7 +14,7 @@ const UpdateModal = ({data, show, onHide}) => {
         } else {
             newData[keyName] = newValue;
         }
-        // console.log('UPDATE', JSON.stringify(newData));
+        console.log('UPDATE', JSON.stringify(newData));
         setFormData(newData);        
     }
 
@@ -28,9 +28,9 @@ const UpdateModal = ({data, show, onHide}) => {
         fetch('http://localhost:4000/api/update', options)
         .then(response => {
             if(response.status === 200) {
-                window.alert('Updated successfully')
-                window.location.reload();
+                window.alert('Updated successfully');
                 onHide()
+                window.location.reload();
             } else {
                 response.json().then(data => {
                     window.alert(data.msg)

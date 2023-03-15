@@ -248,10 +248,10 @@ updateOrder = async (req, res) => {
 
         for (let index = 0; index < orderListData.length; index++) {
             const order = orderListData[index];
-            delete order._id;
-            const orderUpdate = await OrderContent.findOneAndUpdate({ referenceNumber: order.referenceNumber }, order, { new: true });
+            //delete order._id;
+            const orderUpdate = await OrderContent.findOneAndUpdate({ _id: order._id }, order, { new: true });
         }
-
+        console.log("order details"+orderListData);
         res.status(200).send({
             msg: 'Updated fields',
             customer: customerUpdate,

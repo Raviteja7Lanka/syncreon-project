@@ -37,10 +37,10 @@ const Upload = () => {
           body: fileStr,
           redirect: 'follow'
         })
-          .then(response => response.text())
+          .then(response => {response.text();
+                            window.location.reload();})
           .then(result => {
                             console.log(result);
-                            window.location.reload();
                           })
           .catch(error => console.log('error', error));
       }
