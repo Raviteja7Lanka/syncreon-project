@@ -74,7 +74,7 @@ step 6: To run the front end. Open the terminal with file directory 'syncreon pr
         ItemDescription
 
 ## why Mongodb??
-        MongoDB and MySQL are both database management systems, but they differ in their underlying data models and approaches to data management. Here are some advantages of MongoDB over MySQL:
+MongoDB and MySQL are both database management systems, but they differ in their underlying data models and approaches to data management. Here are some advantages of MongoDB over MySQL:
 
 *Flexible data model: MongoDB is a document-oriented database, which means it stores data in a JSON-like format called BSON. This allows for flexible data modeling and makes it easier to work with complex data structures. In contrast, MySQL is a relational database, which requires you to define a schema before storing data. This can be limiting for certain use cases.
 
@@ -90,22 +90,22 @@ In summary, MongoDB offers advantages over MySQL in terms of flexibility, scalab
 
 
 
-Home Screen:
+#Home Screen:
 
 ![Example image](https://github.com/Raviteja7Lanka/syncreon-project/blob/master/Home_Page.png)
     
 
-Dashboard Screen:
+#Dashboard Screen:
+![Example image](https://github.com/Raviteja7Lanka/syncreon-project/blob/master/Screen1.png)
+![Example image](https://github.com/Raviteja7Lanka/syncreon-project/blob/master/Screen%201-2.png)
+![Example image](https://github.com/Raviteja7Lanka/syncreon-project/blob/master/Screen1-3.png)
 
 
+#Update Model screen:
+![Example image](https://github.com/Raviteja7Lanka/syncreon-project/blob/master/Model-1.png)
+![Example image](https://github.com/Raviteja7Lanka/syncreon-project/blob/master/Model1-2.png)
 
-
-Update Model screen:
-
-
-
-
-
+#Upload Screnn
 
 
 # Getting Started with Create React App
